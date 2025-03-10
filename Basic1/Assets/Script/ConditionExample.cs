@@ -2,11 +2,11 @@ using UnityEngine;
 
 public class ConditionExample : MonoBehaviour
 {
-    //¿¬»êÀÚ¿Í Á¶°Ç¹®
-    public int health = 100; 
-      
+    //ì—°ì‚°ìì™€ ì¡°ê±´ë¬¸
+    public int health = 100;
 
-   
+
+
     void Update()
     {
         health -= 1;
@@ -17,4 +17,5 @@ public class ConditionExample : MonoBehaviour
             Debug.Log("GameOver");
         }
     }
+
 }
